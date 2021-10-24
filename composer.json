@@ -1,0 +1,20 @@
+{
+    "name": "harshilkaneria/rapidsql",
+    "description": "This package is Developed for Fast And Easy Data Operation in Mysql And Provide Pre Build Some Function For Execute Database Operations Fast and Rapidly.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harshil Kaneria",
+            "email": "harshilkaneria00@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rapid\\Sql\\": "src"
+        }
+    },
+    "require": {
+        "harshilkaneria/jsonbash": "^1.0"
+    }
+}
