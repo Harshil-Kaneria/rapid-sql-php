@@ -40,9 +40,6 @@ class RapidSql
                 if(!empty($data)){
                     $execute->bind_param(str_repeat("s", count($data)),...$data);
                 }
-                // if (!$tqry) {
-                //     throw new Exception($mysqli->error);
-                // }
                 $execute->execute();
                 return $execute;
             }else{
@@ -55,7 +52,7 @@ class RapidSql
     }
 
     function getData($row="",$table="",$where="",$group="",$order="",$data=[],$exit=0){
-        $this->query = 'SELECT';
+        $this->query = ' SELECT ';
         if($row!=""){
             $this->query .= $row;
         }
@@ -90,7 +87,7 @@ class RapidSql
     }
 
     function getJoinData($row="",$table="",$join="",$where="",$group="",$order="",$data=[],$exit=0){
-        $this->query = 'SELECT';
+        $this->query = ' SELECT ';
         if($row!=""){
             $this->query .= $row;
         }
