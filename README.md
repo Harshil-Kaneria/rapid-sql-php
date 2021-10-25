@@ -7,7 +7,7 @@ This package is Developed for Fast And Easy Data Operation in Mysql And Provide 
 ## Installation
 
 ```bash
-  composer require harshilkaneria/rapid-sql
+  composer require harshilkaneria/rapidsql
 ```
     
 ## Usage/Examples
